@@ -1,10 +1,7 @@
 import { prisma } from "@/utils/connect";
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 
-export async function PUT(
-  request: NextRequest,
-  { params }: { params: { intentId: string } }
-) {
+export async function PUT({ params }: { params: { intentId: string } }) {
   const { intentId } = params;
   try {
     await prisma.order.update({
