@@ -1,6 +1,6 @@
 "use client";
 
-import { OrderType, ProductType } from "@/types/types";
+import { CartItemType, OrderType, ProductType } from "@/types/types";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useSession } from "next-auth/react";
 import Image from "next/image";
@@ -76,7 +76,7 @@ const OrdersPage = () => {
               </td>
               <td className="py-6 px-1">{item.price}</td>
               <td className="hidden md:block py-6 px-1">
-                {item.products.map((product: ProductType) => (
+                {item.products.map((product: CartItemType) => (
                   <div key={product.id}>
                     {product.title}: {product.optionTitle}{" "}
                     {`(${product.quantity})`}
