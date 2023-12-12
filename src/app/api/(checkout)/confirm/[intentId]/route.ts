@@ -1,7 +1,7 @@
 import { prisma } from "@/utils/connect";
 import { NextResponse } from "next/server";
 
-export async function PUT({ params }: { params: { intentId: string } }) {
+async function PUT({ params }: { params: { intentId: string } }) {
   const { intentId } = params;
   try {
     await prisma.order.update({
@@ -22,3 +22,5 @@ export async function PUT({ params }: { params: { intentId: string } }) {
     );
   }
 }
+
+module.exports.PUT = PUT;

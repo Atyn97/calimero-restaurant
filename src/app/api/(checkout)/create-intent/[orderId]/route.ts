@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
-export async function POST({ params }: { params: { orderId: string } }) {
+async function POST({ params }: { params: { orderId: string } }) {
   const { orderId } = params;
 
   const order = await prisma.order.findUnique({
@@ -37,3 +37,5 @@ export async function POST({ params }: { params: { orderId: string } }) {
     status: 404,
   });
 }
+
+module.exports.POST = POST;
