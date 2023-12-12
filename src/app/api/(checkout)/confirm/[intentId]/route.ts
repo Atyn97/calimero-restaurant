@@ -1,11 +1,7 @@
 import { prisma } from "@/utils/connect";
 import { NextResponse } from "next/server";
 
-<<<<<<< HEAD
 export async function PUT({ params }: { params: { intentId: string } }) {
-=======
-export const PUT = async ({ params }: { params: { intentId: string } }) => {
->>>>>>> 07daf8a05b5fa00aee6d319bb8eb3b1bb3a672cb
   const { intentId } = params;
 
   try {
@@ -26,8 +22,4 @@ export const PUT = async ({ params }: { params: { intentId: string } }) => {
       { status: 500 }
     );
   }
-<<<<<<< HEAD
 }
-=======
-};
->>>>>>> 07daf8a05b5fa00aee6d319bb8eb3b1bb3a672cb
