@@ -1,5 +1,5 @@
 import { prisma } from "@/utils/connect";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
 export async function PUT(
   request: NextRequest,
