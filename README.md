@@ -22,11 +22,17 @@ Built a fully responsive restaurant food delivery web application
 
 ### Screenshot
 
-![](./MargoChat3.png)
+![](./Calimero.png)
 
-![](./MargoChat2.png)
+![](./Calimero2.png)
 
-![](./MargoChat.png)
+![](./Calimero5.png)
+
+![](./Calimero6.png)
+
+![](./Calimero7.png)
+
+![](./Calimero8.png)
 
 ### Links
 
