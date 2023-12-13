@@ -1,5 +1,5 @@
 # Calimero Restaurant Application
-Built a fully responsive restaurant food delivery web application 
+Built a fully responsive restaurant food delivery React web application
 
 ## Table of contents
 
@@ -43,7 +43,9 @@ Built a fully responsive restaurant food delivery web application
 
 ### Built with
 
-- React, Next.js and TailwindCSS for the frontend
+- Responsive design with Tailwind CSS
+- Server-Side Rendering with Next.js
+- TypeScript for type safety
 - Authentication system with json web tokens,  bycrypt and has Google and Facebook Sign-In Integration
 - Has Stripe integration to process card payments
 - Node/Express for creating API endpoints
