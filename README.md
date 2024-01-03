@@ -38,15 +38,15 @@ Built a fully responsive restaurant food delivery React web application
 
 ![](./Calimero6.png)
 
-### Screenshot
+### Add Product Page
 
 ![](./Calimero7.png)
 
-### Screenshot
+### Login Page
 
 ![](./Calimero8.png)
 
-### Links
+## Links
 
 - Solution URL: [Solution](https://github.com/Atyn97/calimero-restaurant)
 - Live Site URL: [Live site]()
