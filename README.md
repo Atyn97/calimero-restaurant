@@ -22,15 +22,27 @@ Built a fully responsive restaurant food delivery React web application
 
 ### Screenshot
 
+## Slider
+
 ![](./Calimero.png)
+
+## Featured Product
 
 ![](./Calimero2.png)
 
+### Screenshot
+
 ![](./Calimero5.png)
+
+### Screenshot
 
 ![](./Calimero6.png)
 
+### Screenshot
+
 ![](./Calimero7.png)
+
+### Screenshot
 
 ![](./Calimero8.png)
 
