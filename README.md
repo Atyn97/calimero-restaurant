@@ -20,21 +20,21 @@ Built a fully responsive restaurant food delivery React web application
 - Users can view all orders made
 
 
-### Screenshot
+## Screenshot
 
-## Slider
+### Slider
 
 ![](./Calimero.png)
 
-## Featured Product
+### Featured Product
 
 ![](./Calimero2.png)
 
-### Screenshot
+### Menu
 
 ![](./Calimero5.png)
 
-### Screenshot
+### Customer's order / Admin dashboard
 
 ![](./Calimero6.png)
 
