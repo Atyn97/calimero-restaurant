@@ -1,24 +1,42 @@
 # Calimero Restaurant Application
-Built a fully responsive restaurant food delivery React web application
+The Next.js restaurant app is a simple e-commerce application that uses Next.js, React, Tailwind CSS, PostgreSQL, TypeScript and Next Auth. It allows users to browse products, add them to the cart, and checkout using Stripe. The app also has authentication and authorization features using Next Auth and custom hooks.
+## Table of contents
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [Basic features](#basic-features)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+- [My Process](#my-process)
+- [Features](#features)
+- [Screenshot](#screenshot)
+- [Links](#links)
 - [Author](#author)
 
 ## Overview
 
-### Basic features
+## My process
 
-- Admin can create and delete products, view customer’s orders and change status of each orders made by customers
-- User can place order and pay through Stripe online payment
-- Users can view all orders made
 
+This project uses the following technologies:
+
+- [Next.js]: A React framework for building fast and scalable web applications. Also, used for data fetching and routing.
+- [Tailwind CSS]: A utility-first CSS framework for rapidly building custom designs.
+- [TypeScript]: A superset of JavaScript that adds static types and other features.
+- [MongoDB]: A document-based database that stores data in JSON-like format.
+- [Auth.js]: A library for implementing authentication and authorization in Next.js apps.
+- [Prisma]: An adapter to map the collections of data in MongoDB database
+- [React Hook]: A library for building forms with React hooks.
+- [React Query]: A library for fetching, caching, and updating data in React apps.
+
+## Features
+
+- Responsive and user-friendly interface
+- Product listing and filtering by category
+- Shopping cart and checkout functionality
+- Payment integration with Stripe
+- User authentication and authorization with Google and Facebook
+- Data fetching and storage with MongoDB
+- Type checking with TypeScript
+- Styling with Tailwind CSS
 
 ## Screenshot
 
@@ -50,18 +68,6 @@ Built a fully responsive restaurant food delivery React web application
 
 - Solution URL: [Solution](https://github.com/Atyn97/calimero-restaurant)
 - Live Site URL: [Live site]()
-
-## My process
-
-### Built with
-
-- Responsive design with Tailwind CSS
-- Server-Side Rendering with Next.js
-- TypeScript for type safety
-- Authentication system with json web tokens,  bycrypt and has Google and Facebook Sign-In Integration
-- Has Stripe integration to process card payments
-- Node/Express for creating API endpoints
-- PostgrSQL, Docker and Prisma for storing products and orders
 
 ## Author
 
