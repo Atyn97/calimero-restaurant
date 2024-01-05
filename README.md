@@ -34,6 +34,7 @@ This project uses the following technologies:
 - Shopping cart and checkout functionality
 - Payment integration with Stripe
 - User authentication and authorization with Google and Facebook
+- Admin dashboard to create, delete products, and update the status of each order
 - Data fetching and storage with MongoDB
 - Type checking with TypeScript
 - Styling with Tailwind CSS
