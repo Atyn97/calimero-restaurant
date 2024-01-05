@@ -1,5 +1,5 @@
 # Calimero Restaurant Application
-The Next.js restaurant app is a simple e-commerce application that uses Next.js, React, Tailwind CSS, PostgreSQL, TypeScript and Next Auth. It allows users to browse products, add them to the cart, and checkout using Stripe. The app also has authentication and authorization features using Next Auth and custom hooks.
+The Next.js restaurant app is a simple e-commerce application that uses ReactJS, NextJS 14, TypeScript, PostgreSQL, Prisma, AuthJS Docker, and Tailwind CSS It allows users to browse products, add them to the cart, and checkout using Stripe. The app also has authentication and authorization features using Next Auth and custom hooks.
 ## Table of contents
 
 ## Table of contents
